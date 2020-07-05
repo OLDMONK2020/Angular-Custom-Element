@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="content">
+      <div class="header">{{label}}</div><span>Count- <b>{{jokeCount}}</b></span>
+      <div class="description" [innerHTML]="currentStatus">
+        
+      </div>
+    </div>
+    <div class="ui bottom attached button" (click)="getJoke()">
+    <i class="fa fa-refresh" aria-hidden="true"></i>
+      Try Another Joke
+    </div>
+  </div>

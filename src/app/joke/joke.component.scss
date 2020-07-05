@@ -1,0 +1,77 @@
+.card {
+    position             : fixed;
+    right                : 0;
+    bottom               : 0;
+    display              : -webkit-box;
+    display              : -ms-flexbox;
+    display              : flex;
+    margin               : .875em .5em;
+    float                : none;
+    max-width            : 100%;
+    display              : -webkit-box;
+    display              : -ms-flexbox;
+    display              : flex;
+    -webkit-box-orient   : vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction   : column;
+    flex-direction       : column;
+    width                : 290px;
+    min-height           : 0;
+    background           : #fff;
+    padding              : 0;
+    border               : none;
+    border-radius        : .28571429rem;
+    -webkit-box-shadow   : 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    box-shadow           : 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    -webkit-transition   : -webkit-box-shadow .1s ease, -webkit-transform .1s ease;
+    transition           : -webkit-box-shadow .1s ease, -webkit-transform .1s ease;
+    transition           : box-shadow .1s ease, transform .1s ease;
+    transition           : box-shadow .1s ease, transform .1s ease, -webkit-box-shadow .1s ease, -webkit-transform .1s ease;
+    z-index              : '';
+    font-family          : Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+    .content {
+        -webkit-box-flex  : 1;
+        -ms-flex-positive : 1;
+        flex-grow         : 1;
+        border            : none;
+        border-top        : 1px solid rgba(34, 36, 38, .1);
+        background        : 0 0;
+        margin            : 0;
+        padding           : 1em 1em;
+        -webkit-box-shadow: none;
+        box-shadow        : none;
+        font-size         : 1em;
+        border-radius     : 0;
+    }
+
+    .header {
+        font-weight : 700;
+        font-size   : 1.28571429em;
+        margin-top  : -.21425em;
+        line-height : 1.28571429em;
+        display     : inline-block;
+        margin-right: 15px;
+    }
+
+    .description {
+        clear     : both;
+        color     : rgba(0, 0, 0, .68);
+        margin-top: .5em;
+    }
+
+    .ui.attached.button {
+        position          : relative;
+        display           : block;
+        margin            : 0;
+        border-radius     : 0;
+        -webkit-box-shadow: 0 0 0 1px rgba(34, 36, 38, .15) !important;
+        box-shadow        : 0 0 0 1px rgba(34, 36, 38, .15) !important;
+        padding           : 10px;
+        text-align        : center;
+
+        i {
+            margin-right: 5px;
+        }
+    }
+}
